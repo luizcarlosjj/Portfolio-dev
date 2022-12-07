@@ -101,6 +101,11 @@ body{
     padding: 12px;
 }
 
+#button a {
+    text-decoration: none;
+    color: inherit;
+}
+
 @media (max-width: 713px)
 {
   #button
