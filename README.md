@@ -1,7 +1,7 @@
 <h1 align="center"> SOBRE MIM </h1>
 
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/> <br>Preview: <a href="https://luizcarlosjj.github.io/sobre-mim/"> Site <a>
 </p>
 <hr>
 <p> Techs usadas:
