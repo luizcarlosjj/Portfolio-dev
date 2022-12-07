@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+    margin: 0;
+}
+body{
+    background-color: #333333;
+}
+
+/* HEADER :*/
+
+.cab {
+    background-color: #111111;
+    height: 80px;
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+}
+
+#title{
+    padding: 20px;
+    display: inline-block;
+} 
+
+#title > h1 {
+    font-family: 'Zen Dots', cursive;
+    font-size: 24px;
+    color: white;
+}
+
+#title::after{
+    content: "Develeper Web";
+    color: #444444;
+    font-family: sans-serif;
+}
+
+@media (max-width: 713px)
+{
+  #title::after
+   {
+    display: none;
+   }
+}
+
+#menu {
+    color: aliceblue;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#menu ul {
+    display: flex;
+}
+
+#menu ul li {
+    list-style: none;
+    padding-right: 14px;
+}
+
+#menu ul li i {
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#menu ul li i:hover {
+    padding: 12px;
+    transition: 0.8s;
+    font-size: 25px;
+}
+
+.links:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.links:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.links:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+#button {
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: 'Zen Dots';
+    color: white;
+}
+
+#button:hover {
+    transition: 0.8s;
+    padding: 12px;
+}
+
+@media (max-width: 713px)
+{
+  #button
+   {
+    display: none;
+   }
+}
+
+/* Conteúdo :*/
+
+.content {
+    max-width: 300px;
+    width: 100vw;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre {
+    width: 100vw;
+    height: 100%;
+    margin: 20px 0px 20px 35px;
+    display: inline-block;
+}
+
+@media (max-width: 600px)
+{
+  .sobre
+   {
+    max-width: 300px;
+   }
+}
+
+.sobre h1 {
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 28px;
+    color: white;
+}
+
+.sobre p {
+    color: white;
+    width: 480px;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+@media (max-width: 600px)
+{
+  .sobre p 
+   {
+    width: 400px;
+   }
+}
+
+.sobre p > a {
+    text-decoration: none;
+    color: red;
+}
+
+.sobre img {
+    width: 250px;
+    border-radius: 100%;
+    display: inline-block;
+    justify-content: end;
+}
+
+.image {
+    display: inline-block;
+    justify-content: flex-start;
+    margin-left: 150px;
+    padding: 10px;
+
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: inline-block;
+    justify-content: end;
+}
+
+.image p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+@media (max-width: 890px)
+{
+  .details
+   {
+    display: block;
+    justify-content: left;
+   }
+}
+
+.techs {
+    width: 430px;
+    height: 100%;
+    padding: 10px;
+    padding-top: 25px;
+    margin: 20px 0px 20px 35px;
+}
+
+.techs h1 {
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 28px;
+    color: white;
+}
+
+#imagens img {
+    width: 50px;
+    padding-right: 5px;
+    padding-top: 20px;
+    margin: 10px;
+}
