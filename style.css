@@ -86,33 +86,6 @@ body{
     text-decoration: none;
 }
 
-#button {
-    background-color: red;
-    border-radius: 20px;
-    padding: 10px;
-    margin-right: 10px;
-    font-size: 14px;
-    font-family: 'Zen Dots';
-    color: white;
-}
-
-#button:hover {
-    transition: 0.8s;
-    padding: 12px;
-}
-
-#button a {
-    text-decoration: none;
-    color: inherit;
-}
-
-@media (max-width: 713px)
-{
-  #button
-   {
-    display: none;
-   }
-}
 
 /* Conteúdo :*/
 
@@ -128,17 +101,17 @@ body{
 
 .sobre {
     width: 100vw;
-    height: 100%;
+    height: 100vw;
     margin: 20px 0px 20px 35px;
     display: inline-block;
 }
 
 @media (max-width: 600px)
 {
-  .sobre
-   {
-    max-width: 300px;
-   }
+    .sobre
+    {
+        max-width: 300px;
+    }
 }
 
 .sobre h1 {
@@ -159,10 +132,10 @@ body{
 
 @media (max-width: 600px)
 {
-  .sobre p 
-   {
-    width: 400px;
-   }
+    .sobre p 
+    {
+        width: 400px;
+    }
 }
 
 .sobre p > a {
@@ -177,11 +150,34 @@ body{
     justify-content: end;
 }
 
+#button {
+    width: 220px;
+}
+
+#button:hover {
+    transition: 0.8s;
+    padding: 12px;
+}
+
+#button a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+@media (max-width: 713px)
+{
+  #button
+   {
+    display: none;
+   }
+}
+
 .image {
     display: inline-block;
     justify-content: flex-start;
-    margin-left: 150px;
     padding: 10px;
+    margin: 20px 0px 20px 35px
 
 }
 
@@ -193,13 +189,24 @@ body{
     justify-content: end;
 }
 
-.image p {
+.image h1 {
     color: white;
     font-family: sans-serif;
     text-align: center;
     font-size: 15px;
     padding: 5px;
 }
+
+.image p {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
 
 @media (max-width: 890px)
 {
@@ -211,14 +218,13 @@ body{
 }
 
 .techs {
-    width: 430px;
-    height: 100%;
+    width: 100%;
+    height: 100vw;
     padding: 10px;
-    padding-top: 25px;
-    margin: 20px 0px 20px 35px;
 }
 
 .techs h1 {
+    width: 480px;
     font-family: sans-serif;
     padding: 10px;
     font-size: 28px;
@@ -229,5 +235,4 @@ body{
     width: 50px;
     padding-right: 5px;
     padding-top: 20px;
-    margin: 10px;
 }
