@@ -5,6 +5,8 @@
 }
 body{
     background-color: #333333;
+    width: 100%;
+    height: 100%;
 }
 
 /* HEADER :*/
@@ -97,12 +99,15 @@ body{
 .details {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    height: 100%;
 }
 
 .sobre {
     width: 100vw;
-    height: 100vw;
+    height: 100%;
     margin: 20px 0px 20px 35px;
+    padding-bottom: 20px;
     display: inline-block;
 }
 
@@ -110,14 +115,14 @@ body{
 {
     .sobre
     {
-        max-width: 300px;
+        margin: auto;
     }
 }
 
 .sobre h1 {
     font-family: sans-serif;
     padding: 10px;
-    font-size: 28px;
+    font-size: 24px;
     color: white;
 }
 
@@ -126,6 +131,7 @@ body{
     width: 480px;
     margin-left: 10px;
     padding: 5px;
+    font-size: 16px;
     text-align: left;
     font-family: sans-serif;
 }
@@ -134,51 +140,40 @@ body{
 {
     .sobre p 
     {
-        width: 400px;
+        margin: auto;
+        width: 280px;
     }
 }
 
-.sobre p > a {
-    text-decoration: none;
-    color: red;
-}
-
-.sobre img {
-    width: 250px;
-    border-radius: 100%;
-    display: inline-block;
-    justify-content: end;
-}
-
 #button {
-    width: 220px;
+    margin: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: red;
 }
 
 #button:hover {
     transition: 0.8s;
-    padding: 12px;
+    padding: 15px;
+    font-size: 1em;
+    background-color: rgba(255, 0, 0, 0.788)
 }
 
 #button a {
     text-decoration: none;
     color: inherit;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-weight: bolder;
     text-align: center;
 }
 
-@media (max-width: 713px)
-{
-  #button
-   {
-    display: none;
-   }
-}
-
 .image {
+    width: 100vw;
+    height: 100%;
+    padding: 20px 0px 20px 35px;
     display: inline-block;
-    justify-content: flex-start;
-    padding: 10px;
-    margin: 20px 0px 20px 35px
-
 }
 
 .image img{
@@ -186,14 +181,14 @@ body{
     height: 200px;
     border-radius: 100%;
     display: inline-block;
-    justify-content: end;
+    justify-content: center;
 }
 
 .image h1 {
     color: white;
     font-family: sans-serif;
     text-align: center;
-    font-size: 15px;
+    font-size: 24px;
     padding: 5px;
 }
 
@@ -203,8 +198,28 @@ body{
     font-weight: bolder;
     text-align: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 16px;
     padding: 5px;
+}
+
+@media (max-width: 890px)
+{
+  .image
+   {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+
+   }
+}
+
+
+@media (max-width: 890px)
+{
+  .image img
+   {
+    margin: auto;
+    display: block;
+   }
 }
 
 
@@ -218,8 +233,8 @@ body{
 }
 
 .techs {
-    width: 100%;
-    height: 100vw;
+    width: 100vw;
+    height: 100%;
     padding: 10px;
 }
 
@@ -227,12 +242,20 @@ body{
     width: 480px;
     font-family: sans-serif;
     padding: 10px;
-    font-size: 28px;
+    font-size: 24px;
     color: white;
 }
 
 #imagens img {
     width: 50px;
-    padding-right: 5px;
-    padding-top: 20px;
+    padding: 20px 15px 0px;
+}
+
+@media (max-width: 890px)
+{
+  .techs
+   {
+    width: 100%;
+    justify-content: left;
+   }
 }
