@@ -4,61 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
-    <title>My Website</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Portfólio Web</title>
 </head>
-<body>
-    <header class="cab">
-        <div class="itens">
-            <div id="title">
-                <h1>LUIZ CARLOS</h1>
-            </div>
-
-            <div id="menu">
-                <ul id="list">
-                    <li> <a class="links" target="_blank" href="https://github.com/luizcarlosjj"><i class="fa-brands fa-github"></i></a> </li>
-                    <li> <a class="links" target="_blank" href="https://www.linkedin.com/in/luiz-carlos-junior-354753204/"><i class="fa-brands fa-linkedin"></i></a> </li>
-                    <li> <a class="links" target="_blank" href="https://www.instagram.com/luiz.jb62/"><i class="fa-brands fa-instagram"></i></a> </li>
-                    <li> <a class="links" target="_blank" href="#"><i class="fa-solid fa-envelope"></i></a> </li>
-                    <li> <a class="links" target="_blank" href="https://api.whatsapp.com/send?phone=5562999176992"><i class="fa-brands fa-whatsapp"></i></a> </li>
-                </ul>
-            </div>
+<body class="bg-black">
+    <header id="header">
+        <div class="container-fluid bg-black">
+            <nav class="navbar navbar-expand-lg bg-black">
+                <div class="container-fluid bg-black">
+                  <a class="navbar-brand text-light titulo-menu tit fs-3" href="index.html">Luiz Carlos <span class="details">/></span></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link text-light active titulo-menu fs-3" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link text-light titulo-menu fs-3" href="#">Features</a>
+                      <a class="nav-link text-light titulo-menu fs-3" href="#">Pricing</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
-    <!-- Finalizando o cabeçalho -->
-    <main class="content">
-        <div class="details">
-            <section class="image">
-                <img src="src/face1.jpeg" alt="">
-                <h1>Luiz Carlos Junior</h1>
-                <p>⬇️Baixe meu Currículo⬇️</p>
-                <button id="button">
-                    <a href="src/curriculo.pdf" download="">Meu Currículo</a>
-                </button>
-            </section>
 
-            <section class="sobre"> 
-                <h1> 🙋‍♂️ Sobre mim </h1>s
-                <p>Olá, me chamo Luiz Carlos, tenho 17 anos e sou de Goiânia(GO). Sou um estudante apaixonado por tecnologia e amante do mundo do desenvolvimento, atualmente já com o Ensino Médio concluído estou matriculado em Ciência da computação. Tenho pouco mais de 2 anos de contato com programação e já trabalhei como Auxiliar de TI onde contribuí para o desenvolvimento e manuteção de sites.</p>
-            </section>
-            
-            <section class="techs">
-                <h1>👨‍💻 Tecnologias</h1>
-                <div id="imagens">
-                    <img src="src/html5.png" alt="">
-                    <img src="src/css-3.png" alt="">
-                    <img src="src/js.png" alt="">
-                    <img src="src/wordpress.png" alt="">
-                    <img src="src/python.png" alt="">
+    <main>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <p class="text-info text-light fs-2">
+                    Ajudando empresas a construírem <span class="details">produtos digitais</span> de forma moderna e de alta qualidade.
+                </p>
+              </div>
+              <div class="col">
+                <img src="src/livro.png" alt="icone-principal" width="200px">
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class=" text-white-50 subtitle fs-5">Uma mistura de Design, Desenvolvimento Frontend e habilidade profissional que vão destacar seu produto no mercado. </p>
                 </div>
-            </section>
-        </div>
+                <div class="col">
+                  
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col button-div">
+                    <button type="button" class="stile-button">Instagram</button>
+                </div>
+                <div class="col">
+                  
+                </div>
+            </div>
+        </div>
     </main>
-    <script src="https://kit.fontawesome.com/2fcbf6742d.js" crossori gin="anonymous"></script>
+
+    <footer>
+
+    </footer>
 </body>
 </html>

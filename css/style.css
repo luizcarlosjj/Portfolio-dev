@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sigmar&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    text-align: center;
+    align-items: center;
+}
+
+.titulo-menu { 
+    font-family: 'Sigmar', cursive;
+    margin-right: 10px;
+}
+
+.tit {
+    padding-right: 50px;
+}
+
+.details {
+    color: #986DFF;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #986DFF;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid black;  /* creates padding around scroll thumb */
+}
+
+main {
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.text-info {
+    font-family: 'Signika Negative', sans-serif;
+    padding: 50px 50px 0px 50px;
+    text-align: justify;
+}
+
+.subtitle-div {
+    width: 570px;
+}
+
+.subtitle {
+    font-family: 'Signika Negative', sans-serif;
+    padding: 10px;
+}
+
+.button-div {
+    align-items: left;
+}
+
+.stile-button {
+    background-color: #986DFF;
+    border: none;
+    border-radius: 2px;
+    padding: 15px;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+
+.stile-button:hover {
+    background-color: #7f4af8;
+    transition: 0.5s;
+    padding-right: 50px;
+}
