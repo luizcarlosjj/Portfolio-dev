@@ -67,12 +67,16 @@ main {
     font-family: 'Signika Negative', sans-serif;
     color: white;
     font-size: 20px;
-    width: 200px;
+    width: 180px;
     transition: width 1s;
 
 }
 
 .stile-button:hover {
     background-color: #7f4af8;
-    width: 225px;
+    width: 200px;
+}
+
+.icone-insta {
+    padding: 5px;
 }
