@@ -70,11 +70,12 @@ main {
     font-family: 'Signika Negative', sans-serif;
     color: white;
     font-size: 20px;
+    width: 200px;
+    transition: width 1s;
 
 }
 
 .stile-button:hover {
     background-color: #7f4af8;
-    transition: 0.5s;
-    padding-right: 50px;
+    width: 225px;
 }
