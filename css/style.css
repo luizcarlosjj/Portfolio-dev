@@ -116,6 +116,7 @@ main {
 .faixa ul {
 	display: flex;
     justify-content: center;
+    padding-left: 5px;
 }
 
 .faixa ul li {
@@ -124,5 +125,5 @@ main {
 }
 
 .ico-btn {
-    padding: 0px;
+    padding: 1px;
 }
