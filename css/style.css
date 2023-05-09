@@ -20,7 +20,7 @@
 }
 
 .details {
-    color: #986DFF;
+    color: #dc3545;
 }
 
 body::-webkit-scrollbar {
@@ -32,7 +32,7 @@ body::-webkit-scrollbar-track {
 }
   
 body::-webkit-scrollbar-thumb {
-    background-color: #986DFF;    /* color of the scroll thumb */
+    background-color: #dc3545;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid black;  /* creates padding around scroll thumb */
 }
@@ -60,7 +60,7 @@ main {
 }
 
 .stile-button {
-    background-color: #986DFF;
+    background-color: #b91829;
     border: none;
     border-radius: 2px;
     padding: 15px;
@@ -68,15 +68,61 @@ main {
     color: white;
     font-size: 20px;
     width: 180px;
-    transition: width 1s;
-
+    transition: width 1.2s;
 }
 
 .stile-button:hover {
-    background-color: #7f4af8;
+    background-color: #9c1220;
     width: 200px;
 }
 
 .icone-insta {
+    padding: 5px;
+}
+
+.box-sobre {
+    background-color: #151515;
+    margin: 200px auto 50px auto;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.box-image {
+    padding: 20px;
+}
+.box-text {
+    text-align: start;
+}
+
+.h-box {
+    font-size: 2rem;
+    font-family: 'Sigmar', cursive;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #b91829;
+}
+.p-box {
+    font-size: 1rem;
+    padding: 20px 100px 20px 100px;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    line-height: 2rem;
+}
+
+
+.faixa ul {
+	display: flex;
+    justify-content: center;
+}
+
+.faixa ul li {
+	list-style-type: none;
+    padding-right: 14px;
+}
+
+.ico-btn {
     padding: 5px;
 }
