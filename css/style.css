@@ -9,11 +9,21 @@
 #header {
     text-align: center;
     align-items: center;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .titulo-menu { 
     font-family: 'Archivo', sans-serif;
     margin-right: 10px;
+}
+
+.sub-info:hover {
+    text-decoration: underline;
+    font-weight: 600;
+    transition: 0.5s;
 }
 
 .tit {
@@ -22,6 +32,11 @@
 
 .details {
     color: #dc3545;
+}
+.details:hover {
+    padding: 2px;
+    font-weight: 600;
+    transition: 0.5s;
 }
 
 body::-webkit-scrollbar {
@@ -168,6 +183,7 @@ main {
 .pro-1 span {
     color: #9c1220;
     padding: 0px 0px 10px 10px;
+    cursor: pointer;
 }
 
 .pro-1 span:hover {
@@ -205,6 +221,8 @@ main {
 .pro-2 span {
     color: #00A3FF;
     padding: 0px 0px 10px 10px;
+    cursor: pointer;
+
 }
 
 .pro-2 span:hover {
@@ -242,6 +260,8 @@ main {
 .pro-3 span {
     color: #65945D;
     padding: 0px 0px 10px 10px;
+    cursor: pointer;
+
 }
 
 .pro-3 span:hover {
