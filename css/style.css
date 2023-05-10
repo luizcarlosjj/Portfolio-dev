@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sigmar&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0px;
@@ -11,7 +12,7 @@
 }
 
 .titulo-menu { 
-    font-family: 'Sigmar', cursive;
+    font-family: 'Archivo', sans-serif;
     margin-right: 10px;
 }
 
@@ -38,7 +39,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 main {
-    padding: 30px;
     margin: auto;
     text-align: center;
 }
@@ -99,7 +99,7 @@ main {
 
 .h-box {
     font-size: 2rem;
-    font-family: 'Sigmar', cursive;
+    font-family: 'Archivo', sans-serif;
     color: white;
     text-decoration: underline;
     text-decoration-color: #b91829;
@@ -125,4 +125,244 @@ main {
 
 .ico-btn {
     padding: 1px;
+}
+
+#projetos {
+    background-color: #151515;
+    padding: 96px 48px;
+}
+
+.text-projetos {
+    font-size: 2rem;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+}
+
+.box-projetos {
+    padding: 50px;
+}
+.pro-1 {
+    padding: 20px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dc3545;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.pro-1 h3 {
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    line-height: 2rem;
+    padding: 10px;
+}
+.pro-1 p {
+    font-size: 1rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #777F7F;
+    line-height: 2rem;
+    padding: 10px;
+}
+.pro-1 span {
+    color: #9c1220;
+    padding: 0px 0px 10px 10px;
+}
+
+.pro-1 span:hover {
+    text-decoration: underline;
+    text-decoration-color: #9c1220;
+    transition: 2s;
+}
+
+
+.pro-2 {
+    padding: 20px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00A3FF;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.pro-2 h3 {
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    line-height: 2rem;
+    padding: 10px;
+}
+.pro-2 p {
+    font-size: 1rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #777F7F;
+    line-height: 2rem;
+    padding: 10px;
+}
+.pro-2 span {
+    color: #00A3FF;
+    padding: 0px 0px 10px 10px;
+}
+
+.pro-2 span:hover {
+    text-decoration: underline;
+    text-decoration-color: #00A3FF;
+    transition: 2s;
+}
+
+
+.pro-3 {
+    padding: 20px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #65945D;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.pro-3 h3 {
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    line-height: 2rem;
+    padding: 10px;
+}
+.pro-3 p {
+    font-size: 1rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #777F7F;
+    line-height: 2rem;
+    padding: 10px;
+}
+.pro-3 span {
+    color: #65945D;
+    padding: 0px 0px 10px 10px;
+}
+
+.pro-3 span:hover {
+    text-decoration: underline;
+    text-decoration-color: #65945D;
+    transition: 2s;
+}
+
+
+#servicos {
+    padding: 96px 48px;   
+}
+
+.text-servicos {
+    font-size: 2rem;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+}
+
+.icone-servicos {
+    padding: 20px;
+}
+
+.ser-1 {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    height: 350px;
+}
+.ser-2 {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    height: 350px;
+}
+.ser-3 {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    height: 350px;
+}
+
+.ser-1 h3 {
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    line-height: 2rem;
+    padding: 10px;
+}
+.ser-1 p {
+    font-size: 1rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #777F7F;
+    line-height: 2rem;
+    padding: 10px;
+}
+.ser-1 span {
+    color: #65945D;
+    padding: 0px 0px 10px 10px;
+}
+
+.ser-1:hover {
+    transition: 0.5s;
+    border-width: 2px;
+    border-color: #9c1220;
+}
+
+
+.ser-2 h3 {
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    line-height: 2rem;
+    padding: 10px;
+}
+.ser-2 p {
+    font-size: 1rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #777F7F;
+    line-height: 2rem;
+    padding: 10px;
+}
+.ser-2 span {
+    color: #65945D;
+    padding: 0px 0px 10px 10px;
+}
+
+.ser-2:hover {
+    transition: 0.5s;
+    border-width: 2px;
+    border-color: #9c1220;
+}
+
+
+.ser-3 h3 {
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    line-height: 2rem;
+    padding: 10px;
+}
+.ser-3 p {
+    font-size: 1rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #777F7F;
+    line-height: 2rem;
+    padding: 10px;
+}
+.ser-3 span {
+    color: #65945D;
+    padding: 0px 0px 10px 10px;
+}
+
+.ser-3:hover {
+    transition: 0.5s;
+    border-width: 2px;
+    border-color: #9c1220;
 }
