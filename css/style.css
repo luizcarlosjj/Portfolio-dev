@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sigmar&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0px;
@@ -8,11 +9,21 @@
 #header {
     text-align: center;
     align-items: center;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .titulo-menu { 
-    font-family: 'Sigmar', cursive;
+    font-family: 'Archivo', sans-serif;
     margin-right: 10px;
+}
+
+.sub-info:hover {
+    text-decoration: underline;
+    font-weight: 600;
+    transition: 0.5s;
 }
 
 .tit {
@@ -21,6 +32,11 @@
 
 .details {
     color: #dc3545;
+}
+.details:hover {
+    padding: 2px;
+    font-weight: 600;
+    transition: 0.5s;
 }
 
 body::-webkit-scrollbar {
@@ -99,7 +115,7 @@ main {
 
 .h-box {
     font-size: 2rem;
-    font-family: 'Sigmar', cursive;
+    font-family: 'Archivo', sans-serif;
     color: white;
     text-decoration: underline;
     text-decoration-color: #b91829;
@@ -168,6 +184,7 @@ main {
 .pro-1 span {
     color: #9c1220;
     padding: 0px 0px 10px 10px;
+    cursor: pointer;
 }
 
 .pro-1 span:hover {
@@ -205,6 +222,7 @@ main {
 .pro-2 span {
     color: #00A3FF;
     padding: 0px 0px 10px 10px;
+    cursor: pointer;
 }
 
 .pro-2 span:hover {
@@ -242,6 +260,7 @@ main {
 .pro-3 span {
     color: #65945D;
     padding: 0px 0px 10px 10px;
+    cursor: pointer;
 }
 
 .pro-3 span:hover {
@@ -365,4 +384,8 @@ main {
     transition: 0.5s;
     border-width: 2px;
     border-color: #9c1220;
+}
+
+.icone-font {
+    padding: 5px;
 }
