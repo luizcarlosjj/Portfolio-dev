@@ -23,7 +23,7 @@
 .sub-info:hover {
     text-decoration: underline;
     font-weight: 600;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .tit {
@@ -54,7 +54,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 main {
-    padding: 30px;
     margin: auto;
     text-align: center;
 }
@@ -145,7 +144,7 @@ main {
 
 #projetos {
     background-color: #151515;
-    padding: 96px 48px;
+    padding: 96px 0px 96px 0px;
 }
 
 .text-projetos {
