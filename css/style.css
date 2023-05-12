@@ -13,6 +13,7 @@
     position: sticky;
     top: 0;
     z-index: 1;
+    border-bottom: 5px solid #9c1220;
 }
 
 .titulo-menu { 
@@ -60,7 +61,7 @@ main {
 
 .text-info {
     font-family: 'Signika Negative', sans-serif;
-    padding: 50px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
     text-align: justify;
 }
 
@@ -146,16 +147,24 @@ main {
     background-color: #151515;
     padding: 96px 0px 96px 15px;
 }
-
+.box-projetos {
+    padding: 50px;
+}
 .text-projetos {
     font-size: 2rem;
     font-family: 'Archivo', sans-serif;
     color: white;
 }
-
-.box-projetos {
-    padding: 50px;
+.tit-repo {
+    font-family: 'Archivo', sans-serif;
+    padding-top: 20px;
+    color: #9c1220;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-color: rgba(80, 80, 80, 0.466) ;
+    font-size: 1.3rem;
 }
+
 .pro-1 {
     padding: 20px;
     width: 300px;
@@ -387,4 +396,31 @@ main {
 
 .icone-font {
     padding: 5px;
+}
+
+#conhecimentos {
+    padding: 96px 48px;   
+    background-color: #151515;
+}
+.tit-conhc {
+    font-size: 2rem;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+}
+.p-conhc {
+    font-size: 1rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #777F7F;
+    line-height: 2rem;
+    padding: 10px;
+}
+.space-conhc {
+    padding: 50px;
+}
+.columm-conhc {
+    margin-bottom: 20px;
+}
+
+.image-conhc {
+    padding: 20px;
 }
