@@ -157,7 +157,7 @@ main {
 }
 .tit-repo {
     font-family: 'Archivo', sans-serif;
-    padding-top: 20px;
+    padding-top: 60px;
     color: #9c1220;
     font-weight: 300;
     text-decoration: underline;
@@ -423,4 +423,32 @@ main {
 
 .image-conhc {
     padding: 20px;
+}
+
+.text-rodape {
+    font-size: 1.2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #777F7F;
+    line-height: 2rem;
+    padding: 20px;
+    margin: 20px;
+    text-align: start;
+}
+.text-rodape a {
+    text-decoration: none;
+    color: #9c1220;
+}
+
+.text-fim {
+    font-size: 1.2rem;
+    font-family: 'Signika Negative', sans-serif;
+    color: #777F7F;
+    line-height: 2rem;
+    padding: 20px;
+    margin: 20px;
+    text-align: end;
+}
+
+#fim{
+    width: 250px;
 }
