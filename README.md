@@ -11,3 +11,22 @@
 </p>
 <hr>
 
+## 🛠️ Construído com
+
+* [HTML5]
+* [CSS3]
+* [JAVASCRIPT]
+* [BOOTSTRAP]
+
+## 📌 Versão
+
+3.0 version 
+
+## ✒️ Autor
+
+* **Luiz Carlos Junior** - *Trabalho Inicial* - [desenvolvedor](https://github.com/luizcarlosjj)
+
+## 📄 Licença
+
+Este projeto está sob a licença (MIT LICENSE)
+
