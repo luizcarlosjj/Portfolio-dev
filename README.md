@@ -6,7 +6,9 @@
 <hr>
 <p> Techs usadas:
 <ul>
-<li>Html</li><li>Css</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li>
 </ul>
 </p>
 <hr>
@@ -20,7 +22,7 @@
 
 ## 📌 Versão
 
-3.0 version 
+3.2 version 
 
 ## ✒️ Autor
 
