@@ -54,6 +54,10 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid black;  /* creates padding around scroll thumb */
 }
 
+.icone {
+    margin-left: 5px;
+}
+
 main {
     margin: auto;
     text-align: center;
